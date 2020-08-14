@@ -1,0 +1,37 @@
+.header-contact {
+    display: flex;
+    background-color: #ffffff;
+    padding: 30px 0px;
+    margin: 0px 75px;
+}
+
+.contact-infor {
+    display: flex;
+    flex-direction: row;
+    height: 30;
+    padding-left: 20px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+#location-fas, #email-fas, #phone-fas {
+    border: 2px solid #329e58;
+    color: #329e58;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image {
+    flex-grow: 0.9;
+    padding: 0px 10px;
+}
