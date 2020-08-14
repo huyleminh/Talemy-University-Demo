@@ -1,0 +1,96 @@
+.foot-left {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #000000;
+    box-sizing: border-box;
+    padding: 50px 0px;
+}
+
+.foot-left-content, .foot-right-content, .foot-middle-content {
+    padding: 0px 70px 0px;
+    width: fit-content;
+}
+
+#foot-left-content {
+    margin: 10px 0px;
+    font-size: 15px;
+    color: #bababa;
+    line-height: 24px;
+    font-weight: 500;   
+}
+
+.footer-link {
+    color: #bababa;
+    width: 10px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #694f76;
+}
+
+.foot-mid {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot-mid-content {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.float-left {
+    color: #bababa;
+}
+
+.float-right {
+    float: right!important;
+    color: #ffffff;
+    font-weight: 550;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-input {
+    padding: 8px 20px;
+    background-color: inherit;
+    border-radius: 50px;
+    height: 20px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.footer-input:visited {
+    background-color: inherit;
+    border-radius: 22px;
+    border-color: #444444;
+    border: 1px solid #555;
+    height: 20px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 8px 15px;
+    max-width: 100%;
+}
